@@ -11,7 +11,7 @@ print 'Input: ' + encryptedMessage
 key = input('Please enter key: ')
 key = int(key)
 print('Processing...')
-time.sleep(5)
+time.sleep(2)
 r = random.Random(key) # the number in the bracket is the key.
 a = r.sample(binarySet, len(encryptedMessage) ) # will produce a cipherstream of the length of the user binary number (x)
 print len(a)
