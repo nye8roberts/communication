@@ -81,7 +81,7 @@ print(len(ciphertextTwo))
 
 #message = ciphertext
 
-#server.login('nye8roberts@gmail.com', passwd)
+#server.login('test', passwd)
 
-#server.sendmail('nye8roberts@gmail.com', 'nye8roberts@protonmail.com', message)
+#server.sendmail('nye8roberts@gmail.com', '', message)
 
